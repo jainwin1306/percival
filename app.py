@@ -4,7 +4,7 @@ import streamlit as st
 genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 model = genai.GenerativeModel("gemini-2.0-flash")
 
-st.set_page_config(page_title="Parzival", page_icon="⚔️", layout="centered")
+st.set_page_config(page_title="Percival", page_icon="⚔️", layout="centered")
 
 st.markdown("""
 <style>
